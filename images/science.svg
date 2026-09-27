@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sciBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F4EC" />
+      <stop offset="100%" stop-color="#D5EDE0" />
+    </linearGradient>
+    <linearGradient id="flaskGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4C84B" />
+      <stop offset="100%" stop-color="#E59A18" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#sciBg)" rx="16" />
+  
+  <!-- Atom Orbit Lines -->
+  <ellipse cx="300" cy="180" rx="140" ry="55" fill="none" stroke="#246B45" stroke-width="2.5" opacity="0.3" transform="rotate(-25 300 180)" />
+  <ellipse cx="300" cy="180" rx="140" ry="55" fill="none" stroke="#246B45" stroke-width="2.5" opacity="0.3" transform="rotate(35 300 180)" />
+  
+  <!-- Orbit Electrons -->
+  <circle cx="200" cy="130" r="8" fill="#F4C84B" />
+  <circle cx="410" cy="210" r="8" fill="#246B45" />
+  
+  <!-- Chemistry Flask -->
+  <path d="M 285 110 L 315 110 L 315 150 L 365 245 C 375 265 360 285 335 285 L 265 285 C 240 285 225 265 235 245 L 285 150 Z" fill="#FFFFFF" stroke="#246B45" stroke-width="4" />
+  
+  <!-- Liquid in Flask -->
+  <path d="M 246 230 C 270 240, 330 220, 354 230 L 362 250 C 368 265 355 280 335 280 L 265 280 C 245 280 232 265 238 250 Z" fill="url(#flaskGrad)" opacity="0.85" />
+  
+  <!-- Bubbles -->
+  <circle cx="290" cy="250" r="7" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="320" cy="240" r="10" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="305" cy="210" r="6" fill="#F4C84B" />
+  <circle cx="295" cy="175" r="5" fill="#F4C84B" />
+  
+  <!-- Magnifying Glass -->
+  <circle cx="390" cy="160" r="32" fill="#FFFFFF" stroke="#246B45" stroke-width="4" />
+  <line x1="413" y1="183" x2="445" y2="215" stroke="#246B45" stroke-width="7" stroke-linecap="round" />
+  <circle cx="390" cy="160" r="22" fill="#DFF0E5" opacity="0.6" />
+  
+  <!-- Badge -->
+  <rect x="195" y="330" width="210" height="34" rx="17" fill="#246B45" />
+  <text x="300" y="352" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700" text-anchor="middle">Science &amp; Hands-on Discovery</text>
+</svg>
